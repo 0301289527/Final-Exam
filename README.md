@@ -61,8 +61,34 @@ cd frontend
 npm start
 ```
 
-The frontend will run on [http://localhost:3000](http://localhost:3000).
+The frontend will run on [http://localhost:3000](http://localhost:3000).​​
 
 ---
 
 Now you can open your browser and use the app at [http://localhost:3000](http://localhost:3000).
+
+### Debian VM with Node.js
+
+```bash
+sudo apt update
+sudo apt install npm
+```
+#### Remote Debian VM to VS Code
+
+```bash
+sudo apt update --fix-missing
+sudo apt upgrade
+sudo apt install npm
+```
+
+```bash
+cd backend
+node server.js
+```
+
+```bash
+cd frontend
+npm start
+```
+The frontend will run on [http://localhost:3000](http://localhost:3000).​​
+

@@ -1,11 +1,11 @@
 # Course Management App
 
-A simple full-stack web application for managing your courses and grades.  
+A simple full-stack web application for managing student courses and grades.  
 Frontend is built with React, backend is built with Node.js and Express.
 
 ## Features
 
-- View your course list with grades
+- View course list with grades
 - Add new courses
 - Edit existing courses
 - Delete courses

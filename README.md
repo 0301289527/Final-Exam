@@ -23,7 +23,8 @@ cd Final-Exam
 
 ```bash
 cd Final-Exam
-npx create-react-app frontend && mkdir backend
+npx create-react-app frontend
+mkdir backend
 ```
 
 #### Backend

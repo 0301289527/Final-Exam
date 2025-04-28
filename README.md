@@ -21,18 +21,24 @@ cd Final-Exam
 
 ### 2. Install dependencies
 
+```bash
+cd Final-Exam
+npx create-react-app frontend && mkdir backend
+```
+
 #### Backend
 
 ```bash
 cd backend
-npm install
+npm init -y
+npm install express cors
 ```
 
 #### Frontend
 
 ```bash
 cd ../frontend
-npm install
+npm install axios
 ```
 
 ### 3. Run the application
